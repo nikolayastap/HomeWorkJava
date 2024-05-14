@@ -17,5 +17,26 @@ public class Task2 {
             }
             if (flag) System.out.println(i);
         }
+
+        /*
+        Решение от студента
+        String rez = 0;
+        int count = 0;
+        for (int i = 2; i < 1000; i++) {
+            for (int k = i -1; k >= 1; k--){
+                if (i % k == 0 && k % 1) {
+                    break;
+                } else if (i % k == 0 && k == 1) {
+                    rez += " " + i;
+                    count++;
+                    if (count == 10) {
+                        System.out.println(rez);
+                        rez = "";
+                        count = 0;
+                    }
+                }
+            }
+        }
+         */
     }
 }
